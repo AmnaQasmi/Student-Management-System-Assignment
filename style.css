@@ -1,0 +1,42 @@
+body {
+    font-family:'fantasy','cursive';
+    margin: 10;
+    padding: 10;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #9db8f1;
+}
+
+.container {
+    text-align:left;
+    background-color: #4a65af;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(71, 59, 212, 0.87);
+}
+
+form {
+    margin-bottom: 10px;
+}
+
+label {
+    display:block;
+    margin-bottom: 0px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #92a5c7;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
